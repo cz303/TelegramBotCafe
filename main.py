@@ -1,7 +1,7 @@
 
 import telebot
 
-bot = telebot.TeleBot("592432380:AAEfyxiX1sRE0yPiX3gFBLjwnhrgQgnjHkM")
+bot = telebot.TeleBot("951388162:AAEtCaLOXZMXrepJ4S0r09bKHNzdZQNxyuE")
 
 print(bot.get_me())
 
