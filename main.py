@@ -35,7 +35,7 @@ def handle_text(message):
     elif message.text == "Оплата":
         user_markup = telebot.types.ReplyKeyboardMarkup()
         user_markup.row('Отправить деньги','Нет, хочу поменять заказ')
-        bot.send_message(message.from_user.id, 'Отправьте деньги на этот etherium-кошелек:'+'0x7861D09Eb3A1bBBd9Ff493dcF8d2ded089144c39', reply_markup=user_markup)
+        bot.send_message(message.from_user.id, 'Отправьте деньги на этот bitcoin адрес:'+'16c2LcoRbAc8eY2o2Y4RwGqwVLbqqX45Lm', reply_markup=user_markup)
     else:
         print("Ваш запрос не распознан")
 
